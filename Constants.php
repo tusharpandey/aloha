@@ -2,6 +2,6 @@
     define("STATE_NAME", "UTTRAKHAND");
     define("PRIMARY_COLOR", "#00ffff");
     define("SECONDARY_COLOR", "#000000");
-    define("APPLICATION_LOGO", "#000000");
-    define("SPLASH_IMAGE", "#000000");
+    define("APPLICATION_LOGO", "http://www.tharra.org/Promote_MyStates/Uttrakhand/Images/uttrakhandlogo.png");
+    define("SPLASH_IMAGE", "http://www.tharra.org/Promote_MyStates/Uttrakhand/Images/splashImage.jpg");
 ?>
