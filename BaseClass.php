@@ -9,4 +9,11 @@ class Results {
 	public $response = array();
 	public $pageCache;
 }
+
+class Response {
+	public $response = array();
+}
+
+
+
 ?>

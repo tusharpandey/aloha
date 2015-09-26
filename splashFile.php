@@ -3,7 +3,7 @@
 	require 'BaseClass.php';
 	
 	$msg = new Messages();
-	$res = new Results();
+	$res = new Response();
 	
 	$res -> response = array ( 
 								"state_name" => STATE_NAME ,
