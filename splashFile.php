@@ -1,4 +1,9 @@
 <?php
-hi
-    phpinfo();
+	require 'Constants.php';
+	require 'BaseClass.php';
+	
+	$msg = new Messages();
+	$res = new Results();
+	
+	
 ?>
