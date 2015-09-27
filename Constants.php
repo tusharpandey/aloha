@@ -1,4 +1,10 @@
 <?php
+
+	// Message 
+    define("MESSAGE", "message");
+    define("STATUS", "status");	
+
+	// Application Setting.
     define("STATE_NAME", "UTTRAKHAND");
     define("PRIMARY_COLOR", "#00ffff");
     define("SECONDARY_COLOR", "#000000");

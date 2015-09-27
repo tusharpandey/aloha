@@ -2,7 +2,6 @@
 	require 'Constants.php';
 	require 'BaseClass.php';
 	
-	$msg = new Messages();
 	$res = new Response();
 	
 	$res -> response = array ( 

@@ -14,6 +14,4 @@ class Response {
 	public $response = array();
 }
 
-
-
 ?>
