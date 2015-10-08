@@ -10,6 +10,12 @@ class Results {
 	public $pageCache;
 }
 
+class FeaturedItems{
+	public $listArray = array();
+	public $response = array();
+	public $news = array();
+}
+
 class Response {
 	public $response = array();
 }

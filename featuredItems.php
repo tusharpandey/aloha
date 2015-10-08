@@ -15,7 +15,7 @@
 	  	$message = "success" ;
 	}
 	
-	$res = new Results();
+	$res = new FeaturedItems();
 	if($statusOfQuery){
 		$query_to_execute = "Select * from  featuredItems";
 		$result = mysqli_query($con, $query_to_execute) or die('Error querying database.');
@@ -65,6 +65,11 @@
 								"response" => $message , 
 							 );
 							 
+	$res -> $news = array ( 
+								"news_title" =>  "Tasty Pahaadi food is ready to Supply",
+								"news_description" => "Hi all we are tasty pahaadi food is ready to supply, we have Gehat daal, Gaderi, Neembu to share." , 
+							 );
+
 	echo json_encode($res) ;
 		
 ?>
