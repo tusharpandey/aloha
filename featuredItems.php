@@ -62,13 +62,14 @@
 
 	$res -> response = array ( 
 								"status" =>  $statusOfQuery,
-								"response" => $message , 
+								"response" => $message 
 							 );
 							 
-	$res -> $news = array ( 
-								"news_title" =>  "Tasty Pahaadi food is ready to Supply",
-								"news_description" => "Hi all we are tasty pahaadi food is ready to supply, we have Gehat daal, Gaderi, Neembu to share." , 
-							 );
+	$res -> news = array (
+								"title" =>  "Pahaadi Saag-Sabji for summmer is Ready to Supply" ,
+								"description" => "Pahadi daal like Gehat, Bhat, gaderi, Neembu is ready to supply."  
+						  );
+
 
 	echo json_encode($res) ;
 		
